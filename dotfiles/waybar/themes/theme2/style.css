@@ -1,0 +1,69 @@
+/* Estilo principal para a Waybar */
+#waybar {
+    background: rgba(0, 0, 0, 0.5); /* Transparência de 50% */
+    color: #fff; /* Cor do texto em branco */
+    font-family: "Arial", sans-serif; /* Fonte limpa e moderna */
+    font-size: 12px; /* Tamanho de fonte ajustável */
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+/* Alinhamento dos itens */
+#waybar .module {
+    margin-right: 10px;
+}
+
+/* Estilo do módulo ativo */
+#waybar .module.active {
+    font-weight: bold;
+}
+
+/* Estilo dos itens de módulo com ícones */
+#waybar .module i {
+    margin-right: 5px;
+}
+
+/* Módulos de relógio, data e status */
+#waybar .module#clock {
+    font-size: 14px;
+}
+
+/* Módulo de status */
+#waybar .module#status {
+
+}
+
+/* Módulo de bateria */
+#waybar .module#battery {
+    color: #ffcc00; /* Cor amarela para o ícone de bateria */
+}
+
+/* Módulo de som */
+#waybar .module#volume {
+    color: #00b300; /* Cor verde para o ícone de volume */
+}
+
+/* Módulo de rede */
+#waybar .module#network {
+    color: #3399ff; /* Cor azul para o ícone de rede */
+}
+
+/* Módulo de layout (idioma) */
+#waybar .module#layout {
+    color: #ff6600; /* Cor laranja para o ícone de layout */
+}
+
+/* Modificando a aparência do relógio (caso tenha no seu arquivo de configuração) */
+#waybar .module#clock span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Módulos de texto (para customizações pessoais) */
+#waybar .module.custom-text {
+    font-size: 14px;
+    padding: 2px 5px;
+}
+
+

@@ -1,0 +1,73 @@
+/* Estilo principal para a Waybar */
+#waybar {
+    background: rgba(0, 0, 0, 0.5); /* Transparência de 50% */
+    color: #fff;                     /* Cor do texto em branco */
+    font-family: "Arial", sans-serif; /* Fonte limpa e moderna */
+    font-size: 13px;                 /* Tamanho de fonte ajustável */
+    padding: 5px 10px;               /* Espaçamento interno */
+    border-radius: 13px;              /* Bordas arredondadas */
+   }
+
+/* Alinhamento dos itens */
+#waybar .module {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* Estilo do módulo ativo */
+#waybar .module.active {
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+
+/* Estilo dos itens de módulo com ícones */
+#waybar .module i {
+    margin-right: 2px;
+color: #73AFE8;
+}
+
+/* Módulos de relógio, data e status */
+#waybar .module#clock {
+    font-size: 14px;
+}
+
+
+/* Módulo de bateria */
+#waybar .module#battery {
+    color: #ffcc00; /* Cor amarela para o ícone de bateria */
+}
+#waybar .module#power-profiles-daemon {
+    color: #ffcc00; /* Cor amarela para o ícone de bateria */
+}
+/* Módulo de som */
+#waybar .module#pulseaudio {
+ /*   color: #00b300;*/ /* Cor verde para o ícone de volume */
+}
+
+/* Módulo de rede */
+#waybar .module#network {
+    color: #73AFE8; /* Cor azul para o ícone de rede */
+}
+
+
+
+/* Container do módulo inteiro */
+#workspaces {
+    background-color: rgba(255, 255, 255, 0.05);  /* fundo transparente */
+   font-size: 20px;        /* aumenta o tamanho do ícone e do texto */
+}
+
+/* Workspace ativo (opcional: deixar ainda maior) */
+.workspace.active {
+    font-size: 19px;        /* ícone do workspace ativo maior */
+    font-weight: bold;      /* deixa destacado */
+}
+
+
+#waybar .module#.custom-spotify {
+    padding: 0 10px;
+    margin: 0 4px;
+    background-color: #1DB954;
+    color: black;
+}

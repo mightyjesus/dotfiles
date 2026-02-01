@@ -1,0 +1,10 @@
+show=drun
+width=30%
+height=40%
+prompt=Buscar...
+normal_window=true
+location=center
+allow_images=true
+gtk_dark=true
+insensitive=true
+
